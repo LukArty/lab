@@ -35,6 +35,6 @@ while true; do
   > "
   read answer
   if [ "$answer" != "y" ]; then 
-    exit
+    break;
   fi
 done
